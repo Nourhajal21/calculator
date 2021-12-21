@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+body {
+    background: #333;
+}
+.main {
+    background: black;
+    text-align: center;
+    width: 300px;
+    margin: 80px auto;
+    padding: 10px;
+    margin-top: 15px;
+    height: 625px;
+    border-radius: 35px;
+    margin-left: 20px;
+
+}
+form {
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 93px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.textview {
+    width: 100%;
+    height: 80px;
+    padding: 0 10px;
+    pointer-events: none;
+    background: transparent;
+    border: 0px;
+    color: white;
+    font-size: 50px;
+    float: right;
+    margin-top: 70px;
+}
+.clearfix:before, .clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+    width: 100%;
+}
+.col-3 {
+    width: 25%;
+    padding: 5px;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    padding: 5px;
+    float: left;
+}
+.button {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: 0px;
+    border-radius: 50%;
+    color: white;
+    background: #333333;
+    font-size: large;
+    font-size: 25px;
+    cursor: pointer;
+}
+.button:hover {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: 0px;
+    border-radius: 50%;
+    color: white;
+    background: #575757;
+    font-size: large;
+    font-size: 25px;
+    cursor: pointer;
+}
+.button.top-button {
+    background: #888888;
+    color: black;
+    font-size: 20px;
+
+}
+.button.top-button:hover {
+    background: rgb(184, 184, 184);
+    color: black;
+    font-size: 20px;
+
+}
+.button.equal {
+    /* font-size: 20px; */
+    background: #fd9503;
+    
+}
+.button.equal:hover {
+    /* font-size: 20px; */
+    color: #fd9503;
+    background: #f5d09c;
+    
+}
+.button.operator {
+    background: #fd9503;
+}
+.button.operator:hover {
+    color: #fd9503;
+    background: white;
+}
+.button.zero {
+    border-radius: 50px;
+}
+
+.iphone {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://www.apple.com/v/iphone-13/a/images/overview/photographic-styles/photographic_styles_hw__csidygykh3cm_large.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .iphone {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://www.apple.com/v/iphone-13/a/images/overview/photographic-styles/photographic_styles_hw__csidygykh3cm_large.png");
+        background-repeat: no-repeat;
+        width: 400px;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+}
